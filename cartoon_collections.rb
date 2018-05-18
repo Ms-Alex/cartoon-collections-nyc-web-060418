@@ -7,7 +7,8 @@ end
 
 def summon_captain_planet(calls_array) # code an argument here
   # Your code here
-  
+  calls_array.collect do |call|
+  end
 end
 
 def long_planeteer_calls# code an argument here
