@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(calls_array) # code an argument here
   # Your code here
-  
+  calls_array.any? { |call| call.length > 4 }
 end
 
 def find_the_cheese# code an argument here
